@@ -13,7 +13,7 @@ from recommender import recommend_songs
 app = FastAPI(
     title="AI Song Recommendation API",
     description="AI-based song recommendation using TF-IDF",
-    version="1.0"
+    version="1.0",
     docs_url = "/docs",
     redoc_url = "/redoc",
     openapi_url = "/openapi.json"
